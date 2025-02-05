@@ -1,0 +1,74 @@
+#head{
+    background-color: rgb(82, 82, 82);
+    color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #ffffff;
+}
+.bodyy{
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    width: 100000px;
+    height: 1000000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gambox{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: center;
+}
+.firstl,.secl,.thirdl,.fourthl{
+    display: flex;
+    flex-direction: row;
+}
+.cont1,.cont2,.cont3,.cont4,.cont5,.cont6,.cont7,.cont8,.cont9,.cont10,.cont11,.cont12{
+    width: 100px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 1px;
+    border-radius: 1000px;
+    background: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+}
+.conth1, .conth2, .conth3, .conth4, .conth5, .conth6, .conth7, .conth8, .conth9, .conth10, .conth11, .conth12 {
+    width: 3px;
+    height: 100px;
+    /* margin: 22px; */
+    border-radius: 1000px;
+    background: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+ }
+ .conth1, .conth5, .conth9{
+    margin: 0px;
+ }
+ .conth2, .conth3, .conth4, .conth6, .conth7, .conth8, .conth10, .conth11, .conth12{
+    margin-left: 98px;
+ }
+ .c1,.c2,.c3{
+    display: flex;
+    flex-direction: row;
+ }
+.cont:hover{
+    background-color: aqua;
+}
+#score{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    max-height: 100px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-size: larger;
+}
